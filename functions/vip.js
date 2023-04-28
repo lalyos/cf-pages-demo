@@ -3,5 +3,5 @@ export async function onRequest(context) {
   // const data = await ps.first();
   const data = await ps.all();
 
-  return Response.json(data);
+  return Response.json(data.results);
 }

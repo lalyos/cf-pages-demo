@@ -1,3 +1,4 @@
 export function onRequest(context) {
-    return new Response("Hello, world! v5")
+    console.log("context.env:", context.env)
+    return new Response("Hello, world! v6")
 }
